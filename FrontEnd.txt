@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+    
+    body{
+        
+        background:url("https://images.pexels.com/photos/4451937/pexels-photo-4451937.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500");
+        background-size: cover;
+        background-repeat: no-repeat;
+
+
+
+    }
+
+
+    .container {                        
+  position: relative;
+  text-align: center;
+  color: white;
+}
+.bottom-left {				 
+  position: absolute;
+  bottom: 8px;
+  left: 16px;
+}
+
+.top-left {				 
+  position: absolute;
+  top: 90px;
+  left: 16px;
+}
+
+.top-right {				
+  position: absolute;
+  top: 90px;
+  right: 50px;
+}
+
+.bottom-right {				  
+  position: absolute;
+  bottom: 8px;
+  right: 12px;
+  width:200px;
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+
+
+
+.about-section {
+  padding: 50px;
+  text-align: center;
+
+  color: white;
+}
+
+
+
+h1 {text-align: center;}
+p {text-align: center;}
+div {text-align: center;}
+</style>
+</head>
+<body>
+
+
+   
+
+
+
+
+    
+
+    <div class="top-right">
+        <div class="about-section">
+  
+  <a href="https://en.wikipedia.org/wiki/Real_estate"><h1>About us page</h1></a>
+</div></div>
+
+
+
+
+    }
+
+    </style>
+
+
+
+<h1>Real estate business</h1>
+
+
+<div class="top-left"> 
+<h2><pre class="tab">                     Login Page</h2><br>    
+<div class="login">    
+<form id="login" method="get" action="login.php">    
+    <label><b>User Name     
+    </b>    
+    </label>    
+    <input type="text" name="Uname" id="Uname" placeholder="Username">    
+    <br><br>    
+    <label><b>Password     
+    </b>    
+    </label>    
+    <input type="Password" name="Pass" id="Pass" placeholder="Password">    
+    <br><br>    
+    <input type="button" name="log" id="log" value="Log In Here">       
+    <br><br>    
+    <input type="checkbox" id="check">    
+    <span>Remember me</span>    
+    <br><br>    
+    Forgot <a href="#">Password</a>    
+</form>     
+</div>    
+
+
+
+
+
+</body>
+</html>
